@@ -1,0 +1,449 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="#121213" name="theme-color" />
+    <meta content="https://img.itch.zone/aW1nLzc4NDI1NjEucG5n/original/DyBGU7.png" property="og:image" />
+    <link rel="icon" href="https://img.itch.zone/aW1nLzc4NDI1NjEucG5n/32x32%23/6gic7z.png" type="image/png" />
+    <meta content="itch.io" property="og:site_name" />
+    <meta content="4503599627724030" property="twitter:account_id" />
+    <meta content="An open source wordle clone" property="og:description" />
+    <meta content="An open source wordle clone" name="description" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="games/1347269" name="itch:path" />
+    <meta content="@itchio" name="twitter:site" />
+    <meta content="Word Game by josfeld" name="twitter:title" />
+    <meta content="An open source wordle clone. Play in your browser" name="twitter:description" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="https://img.itch.zone/aW1nLzc4NDI1NjEucG5n/508x254%23mb/ARccd2.png" property="twitter:image" />
+    <meta content="https://josfeld.itch.io/word-game" name="twitter:url" />
+    <script type="application/ld+json">
+        {
+            "@context": "http:\/\/schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "item": {
+                    "@id": "https:\/\/itch.io\/games",
+                    "name": "Games"
+                },
+                "@type": "ListItem",
+                "position": 1
+            }, {
+                "item": {
+                    "@id": "https:\/\/itch.io\/games\/genre-puzzle",
+                    "name": "Puzzle"
+                },
+                "@type": "ListItem",
+                "position": 2
+            }, {
+                "item": {
+                    "@id": "https:\/\/itch.io\/games\/free",
+                    "name": "Free"
+                },
+                "@type": "ListItem",
+                "position": 3
+            }]
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Product",
+            "name": "Word Game",
+            "description": "An open source wordle clone"
+        }
+    </script>
+    <title>Word Game by josfeld</title>
+    <meta name="csrf_token"
+        value="ImxjZmIzMXJrcnFBOE9JSyBVUiBCVVRUIDVrTGpPaEtLQXVHYzFoRSI=.k8/SfQCbKrlGDZbHVImCuHSIdZg=" />
+    <link rel="stylesheet" href="https://static.itch.io/game.css?1641824827" />
+    <script type="text/javascript">
+        window.itchio_translations_url = 'https://static.itch.io/translations';
+    </script>
+    <script type="text/javascript" src="https://static.itch.io/lib.js?1641824827"></script>
+    <script type="text/javascript" src="https://static.itch.io/bundle.min.js?1641824827"></script>
+    <script type="text/javascript" src="https://static.itch.io/lib/jquery.maskMoney.js"></script>
+    <script data-src="https://static.itch.io/react.min.js?1641824827" id="lib_react_src"></script>
+    <script type="text/javascript" src="https://static.itch.io/game.min.js?1641824827"></script>
+    <script type="text/javascript">
+        I.current_user = null;
+        I.subdomain = true;
+    </script>
+    <script type="text/javascript">
+        if (!window.location.hostname.match(/localhost/)) {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga("create", {
+                "cookieDomain": "auto",
+                "trackingId": "UA-136625-6"
+            })
+            ga("set", 'anonymizeIp', true);
+            ga("send", "pageview");
+            ga("require", "ecommerce");
+        }
+    </script>
+    <style type="text/css" id="game_theme">
+        :root {
+            --itchio_ui_bg: #2c2c2c;
+            --itchio_ui_bg_dark: #262626
+        }
+
+        .wrapper {
+            --itchio_font_family: 'Be Vietnam';
+            --itchio_bg_color: #29292a;
+            --itchio_bg2_color: rgba(18, 18, 19, 0);
+            --itchio_bg2_sub: #29292a;
+            --itchio_text_color: #D7DADC;
+            --itchio_link_color: #538D4E;
+            --itchio_border_color: #373739;
+            --itchio_button_color: #538D4E;
+            --itchio_button_fg_color: #ffffff;
+            --itchio_button_shadow_color: #67a162;
+            background-color: #29292a;
+            /*! */
+            /* */
+        }
+
+        .inner_column {
+            color: #D7DADC;
+            font-family: 'Be Vietnam', Lato, LatoExtended, sans-serif;
+            background-color: rgba(18, 18, 19, 0)
+        }
+
+        .inner_column ::selection {
+            color: #ffffff;
+            background: #538D4E
+        }
+
+        .inner_column ::-moz-selection {
+            color: #ffffff;
+            background: #538D4E
+        }
+
+        .inner_column h1,
+        .inner_column h2,
+        .inner_column h3,
+        .inner_column h4,
+        .inner_column h5,
+        .inner_column h6 {
+            font-family: inherit;
+            font-weight: bold;
+            color: inherit
+        }
+
+        .inner_column a,
+        .inner_column .footer a {
+            color: #538D4E
+        }
+
+        .inner_column .button,
+        .inner_column .button:hover,
+        .inner_column .button:active {
+            background-color: #538D4E;
+            color: #ffffff;
+            text-shadow: 0 1px 0px #67a162
+        }
+
+        .inner_column hr {
+            background-color: #373739
+        }
+
+        .inner_column table {
+            border-color: #373739
+        }
+
+        .inner_column .redactor-box .redactor-toolbar li a {
+            color: #538D4E
+        }
+
+        .inner_column .redactor-box .redactor-toolbar li a:hover,
+        .inner_column .redactor-box .redactor-toolbar li a:active,
+        .inner_column .redactor-box .redactor-toolbar li a.redactor-act {
+            background-color: #538D4E !important;
+            color: #ffffff !important;
+            text-shadow: 0 1px 0px #67a162 !important
+        }
+
+        .inner_column .redactor-box .redactor-toolbar .re-button-tooltip {
+            text-shadow: none
+        }
+
+        .game_frame {
+            background: #29292a;
+            /*! */
+            /* */
+        }
+
+        .game_frame .embed_info {
+            background-color: rgba(18, 18, 19, 0.85)
+        }
+
+        .game_loading .loader_bar .loader_bar_slider {
+            background-color: #538D4E
+        }
+
+        .view_game_page .reward_row,
+        .view_game_page .bundle_row {
+            border-color: #29292a !important
+        }
+
+        .view_game_page .game_info_panel_widget {
+            background: rgba(41, 41, 42, 0)
+        }
+
+        .view_game_page .star_value .star_fill {
+            color: #538D4E
+        }
+
+        .view_game_page .rewards .quantity_input {
+            background: rgba(41, 41, 42, 0);
+            border-color: rgba(215, 218, 220, 0.5);
+            color: #D7DADC
+        }
+
+        .view_game_page .right_col {
+            display: none
+        }
+
+        .game_devlog_page li .meta_row .post_likes {
+            border-color: #29292a
+        }
+
+        .game_devlog_post_page .post_like_button {
+            box-shadow: inset 0 0 0 1px #373739
+        }
+
+        .game_comments_widget .community_post .post_footer a,
+        .game_comments_widget .community_post .post_footer .vote_btn,
+        .game_comments_widget .community_post .post_header .post_date a,
+        .game_comments_widget .community_post .post_header .edit_message {
+            color: rgba(215, 218, 220, 0.5)
+        }
+
+        .game_comments_widget .community_post .reveal_full_post_btn {
+            background: linear-gradient(to bottom, transparent, #121213 50%, #121213);
+            color: #538D4E
+        }
+
+        .game_comments_widget .community_post .post_votes {
+            border-color: rgba(215, 218, 220, 0.2)
+        }
+
+        .game_comments_widget .community_post .post_votes .vote_btn:hover {
+            background: rgba(215, 218, 220, 0.05)
+        }
+
+        .game_comments_widget .community_post .post_footer .vote_btn {
+            border-color: rgba(215, 218, 220, 0.5)
+        }
+
+        .game_comments_widget .community_post .post_footer .vote_btn span {
+            color: inherit
+        }
+
+        .game_comments_widget .community_post .post_footer .vote_btn:hover,
+        .game_comments_widget .community_post .post_footer .vote_btn.voted {
+            background-color: #538D4E;
+            color: #ffffff;
+            text-shadow: 0 1px 0px #67a162;
+            border-color: #538D4E
+        }
+
+        .game_comments_widget .form .redactor-box,
+        .game_comments_widget .form .click_input,
+        .game_comments_widget .form .forms_markdown_input_widget {
+            border-color: rgba(215, 218, 220, 0.5);
+            background: transparent
+        }
+
+        .game_comments_widget .form .redactor-layer,
+        .game_comments_widget .form .redactor-toolbar,
+        .game_comments_widget .form .click_input,
+        .game_comments_widget .form .forms_markdown_input_widget {
+            background: rgba(41, 41, 42, 0)
+        }
+
+        .game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar button {
+            color: inherit;
+            opacity: 0.6
+        }
+
+        .game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar button:hover,
+        .game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar button:active {
+            opacity: 1;
+            background-color: #538D4E !important;
+            color: #ffffff !important;
+            text-shadow: 0 1px 0px #67a162 !important
+        }
+
+        .game_comments_widget .form .forms_markdown_input_widget .markdown_toolbar,
+        .game_comments_widget .form .forms_markdown_input_widget li {
+            border-color: rgba(215, 218, 220, 0.5)
+        }
+
+        .game_comments_widget .form textarea {
+            border-color: rgba(215, 218, 220, 0.5);
+            background: rgba(41, 41, 42, 0);
+            color: inherit
+        }
+
+        .game_comments_widget .form .redactor-toolbar {
+            border-color: rgba(215, 218, 220, 0.5)
+        }
+
+        .game_comments_widget .hint {
+            color: rgba(215, 218, 220, 0.5)
+        }
+
+        .game_community_preview_widget .community_topic_row .topic_tag {
+            background-color: #29292a
+        }
+
+        .footer .svgicon,
+        .view_game_page .more_information_toggle .svgicon {
+            fill: #D7DADC !important
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Be%20Vietnam%3A400%2C400italic%2C700%2C700italic"
+        type="text/css" />
+</head>
+
+<body data-page_name="view_game" data-host="itch.io"
+    class="locale_en game_layout embedded_game responsive no_theme_toggle">
+    
+    <script type="text/javascript">
+        new I.GameUserTools('#user_tools')
+    </script>
+    <div id="wrapper" class="main wrapper">
+        <div class="inner_column size_very_large family_be-vietnam" id="inner_column">
+            <div class="header" id="header">
+                <h1 itemprop="name" class="game_title">Word Game</h1>
+            </div>
+            <div id="view_html_game_page_69389"
+                class="view_html_game_page view_game_page page_widget direct_download ready">
+                <div id="html_embed_widget_51146" class="html_embed_widget embed_wrapper">
+                    <div data-height="360" data-width="640" class="game_frame game_pending start_maximized"
+                        style="width: 640px; height: 360px">
+                        <div class="restore_wrapper"><button class="restore_btn button"><svg stroke-linecap="round"
+                                    stroke="currentColor" class="svgicon icon_play" role="img" version="1.1"
+                                    viewBox="0 0 24 24" stroke-width="2" height="24" stroke-linejoin="round" aria-hidden
+                                    fill="none" width="24">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                                </svg> Restore game</button></div>
+                        <div data-iframe="&lt;iframe mozallowfullscreen=&quot;true&quot; allow=&quot;autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr&quot; frameborder=&quot;0&quot; src=&quot;//v6p9d9t4.ssl.hwcdn.net/html/5054524/index.html&quot; msallowfullscreen=&quot;true&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; id=&quot;game_drop&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;"
+                            class="iframe_placeholder"><button class="button load_iframe_btn"><svg
+                                    stroke-linecap="round" stroke="currentColor" class="svgicon icon_play" role="img"
+                                    version="1.1" viewBox="0 0 24 24" stroke-width="2" height="24"
+                                    stroke-linejoin="round" aria-hidden fill="none" width="24">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                                </svg> Run game</button></div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    new I.HtmlEmbed('#html_embed_widget_51146', {
+                        "width": 640,
+                        "start_maximized": true,
+                        "height": 360
+                    })
+                </script>
+                <div class="columns">
+                    <div class="left_col column">
+                       
+                        <div class="more_information_toggle">
+                            
+                            <div class="info_panel_wrapper">
+                                <div class="game_info_panel_widget">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td>Published</td>
+                                                <td><abbr title="09 January 2022 @ 18:26"><span
+                                                            class="icon icon-stopwatch"></span> 1 day ago</abbr></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Status</td>
+                                                <td><a href="https://itch.io/games/released">Released</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Platforms</td>
+                                                <td><a href="https://itch.io/games/platform-windows">Windows</a>, <a
+                                                        href="https://itch.io/games/platform-android">Android</a>, <a
+                                                        href="https://itch.io/games/html5">HTML5</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Author</td>
+                                                <td><a href="https://josfeld.itch.io">josfeld</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Genre</td>
+                                                <td><a href="https://itch.io/games/genre-puzzle">Puzzle</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        </div>
+                    </div>
+                    <div class="right_col column">
+                        <div class="video_embed"></div>
+                        <div class="screenshot_list"><a
+                                href="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA2LnBuZw==/original/1%2FDiyE.png"
+                                target="_blank" data-image_lightbox="true"><img data-screenshot_id="7845406"
+                                    srcset="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA2LnBuZw==/347x500/OyeNoG.png 1x, https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA2LnBuZw==/794x1000/lDDvs%2B.png 2x"
+                                    class="screenshot"
+                                    src="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA2LnBuZw==/347x500/OyeNoG.png" /></a><a
+                                href="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA5LnBuZw==/original/a9RcsZ.png"
+                                target="_blank" data-image_lightbox="true"><img data-screenshot_id="7845409"
+                                    srcset="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA5LnBuZw==/347x500/Dzr80v.png 1x, https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA5LnBuZw==/794x1000/WNeICc.png 2x"
+                                    class="screenshot"
+                                    src="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA5LnBuZw==/347x500/Dzr80v.png" /></a><a
+                                href="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA3LnBuZw==/original/0C8%2Bme.png"
+                                target="_blank" data-image_lightbox="true"><img data-screenshot_id="7845407"
+                                    srcset="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA3LnBuZw==/347x500/T69tfB.png 1x, https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA3LnBuZw==/794x1000/bCqjfI.png 2x"
+                                    class="screenshot"
+                                    src="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA3LnBuZw==/347x500/T69tfB.png" /></a><a
+                                href="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA4LnBuZw==/original/5cEWuE.png"
+                                target="_blank" data-image_lightbox="true"><img data-screenshot_id="7845408"
+                                    srcset="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA4LnBuZw==/347x500/khhrEv.png 1x, https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA4LnBuZw==/794x1000/qB9TsB.png 2x"
+                                    class="screenshot"
+                                    src="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQ1NDA4LnBuZw==/347x500/khhrEv.png" /></a><a
+                                href="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQyNTY1LnBuZw==/original/GefT6x.png"
+                                target="_blank" data-image_lightbox="true"><img data-screenshot_id="7842565"
+                                    srcset="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQyNTY1LnBuZw==/347x500/GlxaHT.png 1x, https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQyNTY1LnBuZw==/794x1000/Sv1fht.png 2x"
+                                    class="screenshot"
+                                    src="https://img.itch.zone/aW1hZ2UvMTM0NzI2OS83ODQyNTY1LnBuZw==/347x500/GlxaHT.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+    <script type="text/javascript">
+        I.setup_layout()
+    </script>
+    <script id="loading_lightbox_tpl" type="text/template">
+        <div aria-live="polite" class="lightbox loading_lightbox"><div class="loader_outer"><div class="loader_label">Loading</div><div class="loader_bar"><div class="loader_bar_slider"></div></div></div></div>
+    </script>
+    <script type="text/javascript">
+        I.setup_page();
+    </script>
+</body>
+
+</html>
